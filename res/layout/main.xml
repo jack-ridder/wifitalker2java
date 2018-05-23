@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/ipText" android:text="@string/defaultIP"></EditText>
+    <TableLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/tableLayout1">
+        <TableRow android:id="@+id/tableRow1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:text="@string/connect" android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/connectB"></Button>
+            <Button android:text="@string/Stop" android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/stop"></Button>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

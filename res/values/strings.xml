@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, WifiTalk!</string>
+    <string name="app_name">WifiTalk</string>
+    <string name="ipText">ipText</string>
+    <string name="connect">connect</string>
+    <string name="defaultIP">127.0.0.1</string>
+    <string name="Stop">stop</string>
+</resources>
